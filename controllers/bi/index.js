@@ -1,0 +1,23 @@
+module.exports = {
+    //...require('./channelOLD'),
+    //...require('./dealerOLD'),
+    ...require('./getDatosVela'),
+    ...require('../drive/uploads'),
+    //...require('./PGOLD'),
+    //...require('./pg_toolOLD'),
+    //...require('./PG2OLD'),
+    //...require('./statusOLD'),
+    //...require('./aproved_referenceOLD'),
+    //...require('./key_modelsOLD'),
+    ...require('./headerMenu'),
+    ...require('./getDatosBarra'),
+    ...require('./getDatosFiltros'),
+    //...require('./biOLD'),
+    ...require('./getMeasureGeneral'),
+    //...require('./getYearBIOLD'),
+    ...require('./getTablaCPSI'),
+    ...require('./getTablaNewCPSI'),
+    ...require('./getTablaMeasure'),
+    ...require('./getTablaNewCPSIWhitOutDealer'),
+    ...require('./gralControllersFiltersBI')
+}
